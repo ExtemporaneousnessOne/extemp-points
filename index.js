@@ -1,5 +1,5 @@
 function percentTillGoal(p){
-    return (Math.round(p * 10) / 10000000000).toFixed(4)
+    return (Math.round(p * 10) / 100000000).toFixed(2)
 }
 
 const currentPoints = {
@@ -41,5 +41,6 @@ rest.forEach(function(placeElement) {
         <h1 class="points-a">${placeElement[1]} | ${percentTillGoal(placeElement[1])}%</h1>
     </div>`)
 })
+
 
 
