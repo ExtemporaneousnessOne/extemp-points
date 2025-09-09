@@ -3,12 +3,14 @@ function percentTillGoal(p){
 }
 
 const currentPoints = {
-      'Noraaaaaaaa #1 Rise fan' : 510,
+      'Noraaaaaaaa #1 Rise fan' : 511,
       'Vivociraptor': 19.5,
-      'puzzles': 799711.5,
+      'puzzles': 858760.5,
       'LoganRobo': 6.625,
       'HonestMagpie': 3.25,
-      'froolsy': 1 
+      'froolsy': 1,
+      'krystalshuri25': 729,
+      'brycec': 1
 }
 
 const sortedPoints = Object.entries(currentPoints).sort((a, b) => b[1] - a[1]);
@@ -41,6 +43,7 @@ rest.forEach(function(placeElement) {
         <h1 class="points-a">${placeElement[1]} | ${percentTillGoal(placeElement[1])}%</h1>
     </div>`)
 })
+
 
 
 
