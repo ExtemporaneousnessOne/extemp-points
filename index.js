@@ -9,7 +9,7 @@ const currentPoints = {
       'LoganRobo': 6567.625,
       'HonestMagpie': 103.25,
       'froolsy': 1,
-      'krystalshuri25': 829,
+      'krystalshuri25': 929,
       'brycec': 1,
       'castleoflight': 100
 }
@@ -44,6 +44,7 @@ rest.forEach(function(placeElement) {
         <h1 class="points-a">${placeElement[1]} | ${percentTillGoal(placeElement[1])}%</h1>
     </div>`)
 })
+
 
 
 
