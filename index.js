@@ -5,10 +5,10 @@ function percentTillGoal(p){
 const currentPoints = {
       'Noraaaaaaaa #1 Rise fan' : 692,
       'Vivociraptor': 119.5,
-      'puzzles': 858880.5,
+      'puzzles': 858890.5,
       'LoganRobo': 6567.625,
       'HonestMagpie': 103.25,
-      'froolsy': 1,
+      'froolsy': 6,
       'krystalshuri25': 929,
       'brycec': 1,
       'castleoflight': 100
@@ -44,6 +44,7 @@ rest.forEach(function(placeElement) {
         <h1 class="points-a">${placeElement[1]} | ${percentTillGoal(placeElement[1])}%</h1>
     </div>`)
 })
+
 
 
 
