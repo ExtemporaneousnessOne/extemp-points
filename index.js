@@ -3,13 +3,13 @@ function percentTillGoal(p){
 }
 
 const currentPoints = {
-      'Noraaaaaaaa #1 Rise fan' : 702,
+      'Noraaaaaaaa #1 Rise fan' : 802,
       'Vivociraptor': 207,
-      'puzzles': 859065.5,
-      'LoganRobo': 6583.09375,
+      'puzzles': 859265.5,
+      'LoganRobo': 6633.09375,
       'HonestMagpie': 125.125,
       'froolsy': 6,
-      "It's a me! BONKERS": 1629,
+      "It's a me! BONKERS": 1654,
       'brycec': 1,
       'CastleLuminous': 143.75,
       'Emily [상민]': 350,
@@ -46,6 +46,7 @@ rest.forEach(function(placeElement) {
         <h1 class="points-a">${placeElement[1]} | ${percentTillGoal(placeElement[1])}%</h1>
     </div>`)
 })
+
 
 
 
