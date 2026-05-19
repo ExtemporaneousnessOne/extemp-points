@@ -13,7 +13,7 @@ const currentPoints = {
       'brycec': 1,
       'CastleLuminous': 143.75,
       'Emily [상민]': 350,
-      'Dermo9': 10.9375
+      'Dermo9': 1010.9375
 }
 
 const sortedPoints = Object.entries(currentPoints).sort((a, b) => b[1] - a[1]);
