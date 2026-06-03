@@ -3,7 +3,7 @@ function percentTillGoal(p){
 }
 
 const currentPoints = {
-      'Noraaaaaaaa #1 Rise fan' : 802,
+      'Noraaaaaaaa #1 Rise fan' : 1802,
       'Vivociraptor': 207,
       'puzzles': 859265.5,
       'LoganRobo': 6733.09375,
@@ -13,7 +13,7 @@ const currentPoints = {
       'brycec': 1,
       'CastleLuminous': 143.75,
       'Emily [상민]': 350,
-      'Dermo9': 1010.9375
+      'Dermo9': 2010.9375
 }
 
 const sortedPoints = Object.entries(currentPoints).sort((a, b) => b[1] - a[1]);
