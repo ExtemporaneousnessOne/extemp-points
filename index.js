@@ -3,7 +3,7 @@ function percentTillGoal(p){
 }
 
 const currentPoints = {
-      'Noraaaaaaaa #1 Rise fan' : 1822,
+      'Noraaaaaaaa #1 Rise fan' : 1922,
       'Vivociraptor': 207,
       'puzzles': 1859275.5,
       'LoganRobo': 6753.09375,
